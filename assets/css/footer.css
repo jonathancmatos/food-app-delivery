@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 115px 55px;
+}
+
+.footer .socials ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .socials ul li {
+    list-style: none;
+    margin-right: 16px;
+}
+
+.footer .socials ul li a {
+    color: var(--primary-color);
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.footer .copy {
+    font-size: 1em;
+    color: var(--secondary-color);
+    font-weight: 600;
+}

@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 0;
+}
+
+.navbar .logo{
+    padding-left: 90px;
+    padding-right: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    padding-right: 40px;
+}
+
+.navbar li {
+    list-style: none;
+    padding-left: 94px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.navbar a.active {
+    color: var(--primary-color);
+}

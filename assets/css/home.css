@@ -1,0 +1,150 @@
+/* welcome */
+
+.welcome {
+    width: 100%;
+    background: url('../imgs/welcome.svg') no-repeat;
+    background-size: contain;
+    text-align: center;
+    color: var(--white-color);
+    padding: 0 217px;
+}
+
+.welcome h6,
+.welcome h1,
+.welcome h5 {
+    padding-bottom: 7px;
+}
+
+.welcome h6{
+    padding-top: 73px;
+    font-size: 1.5em;
+    color: var(--text-light);
+}
+
+.welcome h1 {
+    font-size: 58px;
+    font-weight: 600;
+    padding-bottom: 17px;
+    font-family: var(--font-secondary);
+    color: var(--white-color);
+}
+
+.welcome h5 {
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-bottom: 54px;
+    color: var(--text-light);
+}
+
+.welcome .buttons a {
+    padding: 16px 58px;
+    background-color: transparent;
+    border: 1px solid var(--white-color);
+    border-radius: 30px;
+    margin-left: 34px;
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.welcome .buttons a.active {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.welcome img {
+    margin-top: -106px;
+}
+
+hr {
+    margin: 0 278px 72px;
+    border: 1px solid var(--bg-light);
+}
+
+
+/* Infos */
+
+.container {
+    padding-left: 154px;
+    padding-right: 154px;
+}
+
+.infos h1 {
+    font-weight: 600;
+    font-size: 2.75em;
+    text-align: center;
+    font-family: var(--font-secondary);
+}
+
+.infos .info-one,
+.infos .info-two,
+.infos .info-three{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infos .info-image img{
+    height: 800px;
+}
+
+.infos .info-subtitle {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-bottom: 7px;
+}
+
+.infos .info-title {
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 2em;
+    padding-bottom: 17px;
+}
+
+.infos .info-description {
+    color: var(--text-muted);
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+
+
+/* Finish */
+
+.finish {
+    width: 100%;
+    text-align: center;
+    background: url('../imgs/finish.svg') no-repeat center;
+    background-size: cover;
+    padding: 132px 0;
+    margin-bottom: 40px;
+    color: var(--white-color);
+}
+
+.finish h1 {
+    font-size: 2.5em;
+    padding-bottom: 10px;
+}
+
+.finish p {
+    font-size: 1.5em;
+    padding-bottom: 60px;
+}
+
+.finish .buttons a {
+    border: 1px solid var(--white-color);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 600;
+    padding: 16px 45px;
+    margin-right: 16px;
+    font-size: 1em;
+}
+
+.finish .buttons a.active {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
